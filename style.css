@@ -79,5 +79,5 @@ box-shadow: -3px 4px 5px #333;
 }
 .button:active{
     box-shadow: inset -4px 4px 0 #222;
-    font-size: 0.9 rem;
+    font-size: 0.8 rem;
 }
