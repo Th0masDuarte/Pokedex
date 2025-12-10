@@ -21,25 +21,26 @@ main{
 }
 .pokemon_image{
     position: absolute;
-    bottom: 65%;
-    left: 39%;
+    bottom: 58%;
+    left: 42%;
     transform: translate(7%,20%);
-    height: 10%;
+    height: 15%;
 }
 .pokemon_data{
     position: absolute;
     font-weight: 600;
-    color: red;
+    color: white;
     top: 60%;
-    right: 38%;
+    right: 33%;
     font-size: clamp(8px,5vw,25px);
+    width: 35%;
 }
 .pokemon_data :hover{
     text-decoration: underline;
     color: #fff;
 }
 .pokemon_name{
-    color: red;
+    color: white;
     text-transform: capitalize;
     width: 100%;
 
@@ -61,8 +62,8 @@ box-shadow: -3px 4px 5px #333;
 }
 .buttons{
     position: absolute;
-    top: 38%;
-    right: 10%;
+    top: 15%;
+    right: 8%;
     width: 50%;
     display: flex ;
     gap: 20px;
